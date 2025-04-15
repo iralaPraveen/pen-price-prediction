@@ -1,0 +1,12 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+

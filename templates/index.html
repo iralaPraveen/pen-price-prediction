@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pen Price Predictor</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Enter the number of pens</h2>
+
+    <form id="penForm" action="/predict" method="post" onsubmit="showSpinner()">
+        <input type="number" name="pens" required>
+        <input type="submit" value="Predict Price">
+    </form>
+
+    <!-- 🔁 Spinner -->
+    <div id="spinner" style="display: none;">
+        <div class="loader"></div>
+        <p>Predicting...</p>
+    </div>
+
+    <h3>{{ prediction_text }}</h3>
+
+    <script>
+        function showSpinner() {
+            document.getElementById("spinner").style.display = "block";
+        }
+    </script>
+</body>
+</html>
