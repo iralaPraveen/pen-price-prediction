@@ -61,6 +61,13 @@ python app.py
 
 Then visit http://127.0.0.1:5000 in your browser{you will see the app is running}
 
+## 📽️ Demo Video
+
+[![Watch the video](https://img.youtube.com/vi/PxocXStIeyE/0.jpg)](https://www.youtube.com/watch?v=PxocXStIeyE)
+
+Check out the video walkthrough of the project above!
+
+
 
 
 
